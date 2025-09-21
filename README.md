@@ -14,10 +14,12 @@ A Java-based console application for managing personal income and expense transa
 - **File Validation**: Handles empty files and displays appropriate messages
 - **Clear Files**: Option to completely clear transaction history with confirmation prompts
 
-### 3. Search & Filter
+### 3. Search Transactions
+- **Standalone Search**: Dedicated search functionality without editing capabilities
+- **File Selection**: Choose to search income or expense files separately
 - **Date-based Search**: Find transactions by specific dates (yyyy-MM-dd format)
 - **Smart Paragraph Detection**: Groups related transaction data together
-- **Multiple Results**: Displays all transactions matching the search criteria
+- **Multiple Results**: Displays all transactions matching the search criteria with result numbering
 
 ### 4. Transaction Editing
 - **Edit Amount**: Modify transaction amounts while preserving other details
